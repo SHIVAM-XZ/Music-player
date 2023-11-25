@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music list here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="brand"><img src="logo.png" alt="spotity">Spotify</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of Arijit Singh - 2023 Hits</h1>
+            <div class="songItemcontainer">
+                <div class="songItem">
+                    <img src="1.jpg" alt="1">
+                    <span class="songName">1</span>
+                    <span class="songlistplay"><span class="time">04:18 <i id="1" class="fa-regular songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="2.webp" alt="2">
+                    <span class="songName">2</span>
+                    <span class="songlistplay"><span class="time">03:08 <i id="2" class="fa-regular songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="3.webp" alt="3">
+                    <span class="songName">3</span>
+                    <span class="songlistplay"><span class="time">03:14 <i id="3" class="fa-regular songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="4.webp" alt="4">
+                    <span class="songName">4</span>
+                    <span class="songlistplay"><span class="time">04:03 <i id="4" class="fa-regular songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="5.webp" alt="5">
+                    <span class="songName">5</span>
+                    <span class="songlistplay"><span class="time">03:08 <i id="5" class="fa-regular songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="6.webp" alt="1">
+                    <span class="songName">6</span>
+                    <span class="songlistplay"><span class="time">05:12 <i id="6" class="fa-regular songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="7.webp" alt="1">
+                    <span class="songName">7</span>
+                    <span class="songlistplay"><span class="time">05:12 <i id="7" class="fa-regular songItemplay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="progressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-3x fa-backward"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterplay"></i>
+            <i id="next" class="fa-solid fa-3x fa-forward"></i>
+        </div>
+        <div class="songinfo">
+            <img src="beat.gif" id="gif" width="80px" height="34px">
+            <span id="changetitles">Simroon Tera Naam</span>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/a2c46b4d1f.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
